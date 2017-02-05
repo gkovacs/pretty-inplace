@@ -1,21 +1,21 @@
 {
-  "name": "uglify-inplace",
+  "name": "pretty-inplace",
   "version": "1.0.2",
-  "description": "runs uglify on the input file and replaces it with the compressed version",
-  "main": "bin/uglify-inplace",
+  "description": "runs prettier on the input file and replaces it with the prettified version",
+  "main": "bin/pretty-inplace",
   "dependencies": {
-    "uglify-js": "^2.7.5"
+    "prettier": "^0.15.0"
   },
   "devDependencies": {},
   "bin": {
-    "uglify-inplace": "./bin/uglify-inplace"
+    "pretty-inplace": "./bin/pretty-inplace"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gkovacs/uglify-inplace.git"
+    "url": "https://github.com/gkovacs/pretty-inplace.git"
   },
   "keywords": [
     "lsc",
@@ -25,7 +25,7 @@
   "author": "Geza Kovacs (http://github.com/gkovacs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gkovacs/uglify-inplace/issues"
+    "url": "https://github.com/gkovacs/pretty-inplace/issues"
   },
-  "homepage": "https://github.com/gkovacs/uglify-inplace"
+  "homepage": "https://github.com/gkovacs/pretty-inplace"
 }
